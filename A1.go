@@ -8,9 +8,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"math/rand/v2"
-	"bufio"
 	"os"
 	"strconv"
 	"strings"
