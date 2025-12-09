@@ -41,7 +41,7 @@ func main() {
 		guessNumber, _ = strconv.Atoi(guessString)
 
 		if guessNumber == answer {
-			fmt.Printf("Congratulations! You guessed the correct number: %d", answer) // correctly guessed 
+			fmt.Printf("Congratulations! You guessed the correct number: %d", answer) // correctly guessed
 		} else if guessNumber == 0 {
 			fmt.Println("You quit!") // the user typed 0(exited the game)
 		} else {
